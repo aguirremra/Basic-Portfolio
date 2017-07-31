@@ -1,0 +1,29 @@
+ h1{
+	color: blue;
+	background-color: #eee;
+}
+a{
+	color: blue;
+}
+section{
+	padding: 20px;
+	margin-bottom: 20px;
+}
+#about{
+	background-color: yellow;
+	width: 50%;
+	float: left;
+	height: 400px;
+	margin-left: 35px;
+}
+#connect{
+	background-color: pink;
+	width: 25%;
+	float: left;
+	margin-left: 35px;
+}
+footer{
+	clear: both;
+	background-color: #ddd;
+	height: 100px;
+}
