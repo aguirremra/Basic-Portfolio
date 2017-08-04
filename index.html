@@ -2,38 +2,52 @@
 <html>
 <head>
 	<title>Maria Reinbach</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 	<header>
-		<div>
-			<h1>Maria Reinbach</h1>
-		</div>
-			<nav>
+		<div class="cwrap">
+				<h1 class="headfont">Maria Reinbach</h1>
+			<nav class="nav-col">
 				<ul>
-					<li><a href="index.html">About</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a id="about" href="index.html">About</a></li>
+					<li><a id="portfolio" href="portfolio.html">Portfolio</a></li>
+					<li><a id="contact" href="contact.html">Contact</a></li>
 				</ul>
-			</nav>
+			</nav>	
+		</div>
 	</header>
-	<section id="about">
-		<h2>About Me</h2>
-		<hr>
-		<img src="assets/images/Maria-Profile.jpeg" alt="My Pic" height="225" width="250">
-		<p>My name is Maria Reinbach. I am a ......</p>
-	</section>
-	<section id="connect">
-		<h3>Connect with Me</h3>
-		<hr>
-	</section>
-
+	<main>
+		<div class="cwrap">
+			<div class="about">
+				<h2 class="about-head headfont">About Me</h2>
+				<hr>
+				<br>
+				<div class="about-container">
+					<div class="about-text-float">
+						<img class="about-img" src="assets/images/Maria-Profile.jpeg" alt="Profile Pic">
+					</div>
+					<p class="about-text">I am a happy wife to the sweetest, most generous, and godly man named Brian. We have two (big) dogs named Lola and Patrick that pretty much run the house. That's ok with us though!
+					<br><br>
+					I have a 26-year old son who is an apiring software developer (apple-tree hehe) and he is the father of the most beautiful 11 month old girl in the world. Her name is Eeva. I am blessed with great friends, a great job, a cozy home, dogs. I love the outdoors, fitness, volunteering at church, studying the bible.</p>
+				</div>				
+			</div>
+			<div class="connect">
+				<h2 class="connect-head headfont">Connect with Me</h2>
+				<hr>
+				<br>
+				<div class="social-icons">
+					<a href="https://github.com/aguirremra" target="_blank"><img class="git" src="assets/images/github.png" alt="github"/></a>
+					<a href="https://www.linkedin.com/in/maria-reinbach/" target="_blank"><img class="linkedin" src="assets/images/linkedin.png" alt="li"/></a>
+					<a href="https://stackoverflow.com/users/8213701/maria-reinbach" target="_blank"><img class="stack" src="assets/images/stackoverflow.png" alt="so"/></a>
+				</div>
+		</div>
+	</main>
 	<footer>
-		<p>Copyright 2017 Maria Reinbach<p/>
+		<div class="cwrap">
+			Copyright 2017 Maria Reinbach
+		</div>
 	</footer>
 </body>
 </html>
-
-<!--   * Write a paragraph or two about yourself. Make it fun, show your personality!
-   * The main logo where it says "Your Name" should say your name. This may make the logo section smaller or wider depending on how long your name is—that is fine and expected.
-   * Add, commit, and push your code to GitHub often, especially when you complete a page.-->
