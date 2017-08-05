@@ -76,6 +76,7 @@ main{
 	background-image: url("../images/concrete-texture.png");
 /*	min-height: 100%;*/
 	flex: 1 0 auto;
+	padding-bottom: 40px
 }
 .about hr{
 	border-color: gray;
@@ -108,9 +109,10 @@ main{
 	padding-left: 0px;
 }
 .about img{
-	max-width: 85%;
+	max-width: 225px;
 	height: auto;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
+	padding-right: 20px;
 }
 .connect{	
 	position: relative;
@@ -144,11 +146,67 @@ main{
 	border-color: #cccccc;
 	max-width: 225px;
 }
+input[type=text], textarea, select{
+	width:100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: none;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+#message{
+	height: 150px;
+}
+input[type=submit]{
+	width: 100px;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: : 4px;
+	cursor: pointer;
+}
+.portfolio-float {
+	text-align: center;
+	float: left;
+}
+.img-container{
+	display: inline-block;
+	position: relative;
+	height: 175px;
+	width: 250px;
+	margin-left: 20px;
+}
+.img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-right: 0;
+}
+.img-text{
+	z-index: 100;
+	position: absolute;
+	width: 82%;
+	color: white;
+	background: #4aaaa5;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	height: 30px;
+	top: 100px;
+}
+.thankyou-float{
+	text-align: center;
+	padding: 25px;
+}
 footer{
 	flex-shrink: 0;
 	padding: 20px;
 	background: #666666;
-	border-top: solid #4aaaa5;
+	border-top: solid #4aaaa5 5px;
 	color: white;
 	margin: 0;
 	text-align: center;
